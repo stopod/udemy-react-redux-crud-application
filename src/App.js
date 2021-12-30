@@ -1,7 +1,12 @@
 
 function App() {
+
+  const greeting = 'Hi, ababa';
+  const dom = <h1 className="foo">{greeting}</h1>
+
   return (
-    <div><h1>Hello World!</h1></div>
+    // jsx -> javascript xml template言語のひとつ
+    dom
   );
 }
 
